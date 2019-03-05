@@ -1,18 +1,11 @@
 # Mandatory Assignment: Required readings List
-<<<<<<< HEAD
+
 > Mandatory Assignment: creating a Required readings List from the _## Required reading paragraph_ in the readme files, on github.
-=======
-> Mandatory Assignment: creating a Required readings List from the _##ls Required reading paragraph_ in the readme files, on github.
->>>>>>> 72559e526d5f70c37f644fa599548efdc6db24da
 
 All the following should be done through Python, not manually. Even though there are many ways to solve the subtasks in this exercise you should only use the elements we covered so far. 
 
 ## Requirements for the application
-<<<<<<< HEAD
 The overall function of this application is that it should be able to generate a **required_reading.md** file containing a list of the litterature you will need to be familiar with at the exam in the end of this semester. An example of this can be seen [here](https://github.com/clbokea/required_reading/blob/master/required_reading.md)
-=======
-The overall function of this application is that it should be able to generate a **required_reading.md** file containing a list of the litterature you will need to be familiar with at the exam in the end of this semester. An example of this can be seen [here](https://github.com/clbokea/required_reading/blob/master/required_reading.md) 
->>>>>>> 72559e526d5f70c37f644fa599548efdc6db24da
 For this, the application should be able to _clone_ and later _pull_ all repositories from the the github organization "Python Elective I spring 2019" (our classroom git repositories) and store it locally on your machine.   
 Then it should loop through all the readme.md files and look for the bullet points contained in the _Required readings_ paragraph.  
 Then it should write this collected list into a new file (required_reading.md) and push this file to a repository on your github account. The outcome will be that you have a list of links to the material/texts that is the curriculum of this python elective. 
